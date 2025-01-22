@@ -84,7 +84,7 @@ if($().circleProgress){
 
 	//Set progress circle 1
 	$("#progress1").circleProgress({
-		value: 0.95,
+		value: 1.00,
 		size: 175,
 		thickness: 2,
 		fill: "#40424a",
@@ -92,7 +92,7 @@ if($().circleProgress){
 	});
 	//Set progress circle 2
 	$("#progress2").circleProgress({
-		value: 0.95,
+		value: 1.00,
 		size: 175,
 		thickness: 2,
 		fill: "#40424a",
@@ -101,7 +101,7 @@ if($().circleProgress){
 
 	//Set progress circle white
 	$("#progress3").circleProgress({
-		value: 0.85,
+		value: 1.00,
 		size: 175,
 		thickness: 2,
 		fill: "#40424a",
