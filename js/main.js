@@ -23,6 +23,17 @@ $(window).on('load', function() {
 (function($) {
 
 	/*------------------
+		Sticky Header
+	--------------------*/
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 50) {
+			$('.header-section').addClass('scrolled');
+		} else {
+			$('.header-section').removeClass('scrolled');
+		}
+	});
+
+	/*------------------
 		Background set
 	--------------------*/
 	$('.set-bg').each(function() {
@@ -87,7 +98,7 @@ if($().circleProgress){
 		value: 1.00,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 	//Set progress circle 2
@@ -95,16 +106,16 @@ if($().circleProgress){
 		value: 1.00,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 
 	//Set progress circle white
 	$("#progress3").circleProgress({
-		value: 1.00,
+		value: 0.95,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 
@@ -113,7 +124,7 @@ if($().circleProgress){
 		value: 0.20,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 
@@ -122,7 +133,7 @@ if($().circleProgress){
 		value: 0.20,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 
@@ -131,7 +142,7 @@ if($().circleProgress){
 		value: 0.83,
 		size: 175,
 		thickness: 2,
-		fill: "#40424a",
+		fill: "#4f46e5",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 }
